@@ -1,0 +1,272 @@
+.uber-button{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s;
+}
+.uber-button:hover{
+  opacity:0.7; 
+}
+.amazon-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 18px;
+  width: 170px;
+  border: none;
+  transition: background-color 0.15s;
+}
+.amazon-button:hover{
+  background-color: rgb(255, 200, 20);
+}
+.github-button{
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  cursor: pointer;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  transition: box-shadow 0.15s;
+}
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.boot-button{
+  border: none;
+  background-color: rgb(121, 82, 179);
+  height: 36px;
+  cursor: pointer;
+  width: 110px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background-color 0.15s;
+}
+.boot-button:hover{
+  background-color: rgb(121, 82, 150);
+}
+.strap-button{
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  height: 36px;
+  cursor: pointer;
+  width: 110px;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: bold;
+  border-width: 1px;
+  transition: background-color 0.15s,color 0.15s;
+}
+.strap-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.link-button{
+border: none;
+border-radius: 18px;
+height: 36px;
+cursor: pointer;
+width: 220px;
+color: white;
+font-weight: bold;
+background-color: rgb(10, 102, 194);  
+transition: background-color 0.15s;  
+}
+.link-button:hover{
+  background-color: rgb(10, 102, 165);
+}
+.din-button{
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 18px;
+  width: 80px;
+  font-weight: bold;
+  transition: border-width 0.15s;
+}
+.din-button:hover{
+  border-width: 3px;
+}
+.link-amazon{
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+.link-amazon:hover{
+  color: red;
+}
+.amz1-button{
+  height: 36px;
+  cursor: pointer;
+  background-color: rgb(255, 216, 20);
+  border-radius: 18px;
+  border: none;
+  width: 120px;
+  margin-right: 10px;
+  transition: background-color 0.15s,opacity 0.15s;
+}
+.amz1-button:hover{
+  background-color: rgb(255, 205, 20);
+}
+.amz1-button:active{
+  opacity: 0.5;
+}
+.amz2-button{
+  height: 36px;
+  cursor: pointer;
+  width: 120px;
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 18px;
+  transition: background-color 0.15s,opacity 0.15s;
+}
+.amz2-button:hover{
+  background-color: rgb(255,  150, 28);
+}
+.amz2-button:active{
+  opacity: 0.5;
+}
+.subscribe-button{
+  background-color: #f70302;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-right: 10px;
+}
+.subscribe-button:hover{
+  opacity: 0.7;
+}
+.subscribe-button:active{
+  opacity: 0.5;
+}
+.join-button{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-color: #1a3b62;
+  color: #1a3b62;
+  transition: background-color 0.15s,color 0.15s,opacity 0.15s;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.join-button:hover{
+  color: white;
+  background-color: #3471bb;
+}
+.join-button:active{
+  opacity: 0.7;
+}
+.tweet-button{
+  border-radius: 18px;
+  border:none;
+  background-color:#4195d4 ;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 0.15s,opacity 0.15s;
+  cursor: pointer;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 5);
+}
+.tweet-button:active{
+  opacity: 0.7;
+}
+.num-link{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.back-button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.next-button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.stretch-button{
+  color: white;
+  background-color: green;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition: padding 0.5s;
+  vertical-align: top;
+  cursor: pointer;
+}
+.stretch-button:hover{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.shadow-button{
+  color: white;
+  background-color: green;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition: margin 0.20s;
+  box-shadow: 3px 3px 5px rgb(185, 143, 143);
+  vertical-align: top;
+  cursor: pointer;
+}
+.shadow-button:active{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.one-button{
+  color: white;
+  background-color: green;
+  border: none;
+  margin-left:10px ;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  transition: padding 0.20s,margin 0.20s;
+  vertical-align: top;
+  cursor: pointer;
+}
+.one-button:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
