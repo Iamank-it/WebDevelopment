@@ -3,28 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <style>
-  .google{
-    margin-top: 30vh;
-    height: 100px;
+    .ss{
+      display: block ;
+      margin-top: 10px;
+    }
     
-  }
-  .google-search{
-    display: block;
-    margin-top: 10px;
-    width: 400px;
-    height: 25px;
-    border-radius: 18px;
-    border: none;
-    box-shadow: -1px 1px 10px grey;
-    padding-left: 10px;
-  }</style>
+    .survey{
+      width: 200px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .signup{
+      margin-top: 100px;
+      border: solid;
+      border-width: 3px;
+      border-color: rgb(204, 174, 174);
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .signup-email{
+      width: 355px;
+      margin-top: 10px;
+      border: solid;
+      border-width: 3px;
+      border-color: rgb(204, 174, 174);
+      padding: 10px;
+      border-radius: 6px;
+      display: block;
+    }
+    .signup-button{
+      width: 380px;
+      margin-top: 10px;
+      border: none;
+      padding: 10px;
+      color: white;
+      font-weight: bolder;
+      background-color: rgb(120, 120, 234);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Document</title>
 </head>
 <body>
-  <center>
-    <img src="download.png" alt="" class="google">
-    <input type="text" class="google-search" placeholder="Search Google or type a URL">
-  </center>
+  <div>
+  <input type="text" placeholder="Name" class="ss">
+  <input type="email" placeholder="Email" class="ss">
+  </div>
+
+  <div style="margin-top: 5rem;">
+  <p class="survey">
+    Thanks for chatting with our customer support. Would you like to take a quick survey ?
+  </p>
+  <button>
+    Yes 
+  </button>
+  <button>
+    No
+  </button>
+  </div>
+
+  <input type="text" class="signup" placeholder="First Name">
+  <input type="text" class="signup" placeholder="Last Name">
+  <input type="Email" class="signup-email" placeholder="Email">
+  <button class="signup-button">Sign Up</button>
+
+   
+  </h2>
 </body>
 </html>
