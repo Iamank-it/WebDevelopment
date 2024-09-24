@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Div</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    .profile{
+      display: inline-block;
+      width: 30%;
+    }
+    .profile-picture img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .profile-picture{
+      display: inline-block;
+      width: 6rem;
+      height: 6rem;
+      margin-bottom: 0;
+    }
+    .profile-text{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 3%;
+      margin-left: 3%;
+      width: 50%;
+    }
+    .profile-text p{
+      margin-top: 0;
+      font-family: Roboto,arial;
+      font-size: 1.2rem;
+      margin-bottom: 0;
+    }
+    .profile-head{
+      font-weight: bold;
+      overflow-wrap: break-word;
+    }
+    .profile-body{
+      color: rgb(96, 96, 96);
+    }
+    .profile-btn{
+      display: inline-block;
+      vertical-align: top;
+      margin-left: auto;
+      margin-top: 7%;
+    }
+    .profile-btn button{
+      color: aliceblue;
+      background-color: rgb(147, 147, 244);
+      border: none;
+      width: 5rem;
+      font-family: roboto,arial;
+      font-weight: bold;
+      font-size: 1.3rem;
+      height: 2rem;
+      border-radius: 5px;      
+    }
+  </style>
+</head>
+<body>
+  <h2>
+    Exercise 1
+  </h2>
+  <div class="profile">
+    <div class="profile-picture"><img src="download.jpeg" alt=""></div>
+    <div class="profile-text">
+      <div><p class="profile-head">Meao Meao</p></div>
+      <div><p class="profile-body">The Cat</p></div>
+      <div><p class="profile-body">Popular</p></div>
+    </div>
+  </div>
+  <h2>
+    Exercise 2
+  </h2>
+  <div class="profile" style="box-shadow: 0px 0px 5px black; padding: 10px;">
+    <div class="profile-picture"><img src="download.jpeg" alt=""></div>
+    <div class="profile-text">
+      <div><p class="profile-head">Meao Meao</p></div>
+      <div><p class="profile-body">The Cat</p></div>
+      <div><p class="profile-body">Popular</p></div>
+    </div>
+    <div class="profile-btn">
+      <button>Follow</button>
+    </div>
+  </div>
+  <h2>
+    Exercise 3 
+  </h2>
+  <div class="profile" style="padding: 10px;display: block;">
+    <div class="profile-picture"><img src="download.jpeg" alt=""></div>
+    <div class="profile-text">
+      <div><p class="profile-head">Meao Meao</p></div>
+      <div><p class="profile-body">The Cat</p></div>
+      <div><p class="profile-body">Popular</p></div>
+    </div>
+    <div class="profile-btn">
+      <button>Follow</button>
+    </div>
+  </div>
+  <div class="profile" style="padding: 10px;display: block;">
+    <div class="profile-picture"><img src="download (1).jpeg" alt=""></div>
+    <div class="profile-text">
+      <div><p class="profile-head">Bhaw Bhaw</p></div>
+      <div><p class="profile-body">The Dog</p></div>
+      <div><p class="profile-body">Protector</p></div>
+    </div>
+    <div class="profile-btn">
+      <button>Follow</button>
+    </div>
+  </div>
+  <div class="profile" style="padding: 10px;display: block;">
+    <div class="profile-picture"><img src="download (2).jpeg" alt=""></div>
+    <div class="profile-text">
+      <div><p class="profile-head">Oynk Oynk</p></div>
+      <div><p class="profile-body">The Pig</p></div>
+      <div><p class="profile-body">Piggy</p></div>
+    </div>
+    <div class="profile-btn">
+      <button>Follow</button>
+    </div>
+  </div>  
+</body>
+</html>
