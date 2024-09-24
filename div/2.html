@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    .tweet{
+      box-shadow: 0px 0px 5px black;
+      padding: 1rem;
+      border-radius: 1rem;
+      width: 34%;
+      overflow: hidden;
+    }
+     .tweet img{
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50% ;
+      object-fit: cover;
+      object-position: center;
+     }
+     .tweet-input{
+      height: 2rem;
+      width: auto;
+      margin-top: 3%;
+      vertical-align: top;
+      font-size: 26px;
+      border: none;
+      margin-left: 3%;
+     }
+     .tweet-input:focus{
+      outline: none;
+     }
+     .tweet-button{
+      vertical-align: top;
+      background-color: rgb(105, 105, 232);
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-top: 3%;
+      overflow: none;
+      height: 2.5rem;
+      color: aliceblue;
+      font-weight: bolder;
+      border: none;
+      border-radius: 2rem;
+     }
+  </style>
+</head>
+<body>
+  <h2>Exercise 1</h2>
+  <div class="tweet"> 
+    <img src="download.jpeg" alt="">
+    <input type="text" placeholder="What's happening ?" class="tweet-input">
+    <button class="tweet-button">Tweet</button>
+  </div>
+</body>
+</html>
