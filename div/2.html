@@ -48,6 +48,54 @@
       border: none;
       border-radius: 2rem;
      }
+     .card{
+      width: 90%;
+      border: none;
+      box-shadow: 0px 0px 5px black;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      overflow-wrap: break-word;
+     }
+     .outer-card{
+      width: 15rem;
+      border: solid;
+      border-color: grey;
+     }
+     .card img{
+      width: 100%;
+      height: 14rem;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+     .card button{
+      width: auto;
+      background-color: rgb(138, 138, 242);
+      color: aliceblue;
+      border: none;
+      width: auto;
+      margin-top: 1px;
+      margin-bottom: 10%;
+      height: 2rem;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem
+     }
+     .card-content{
+      padding-left: 5%;
+     }
+     .card-content h2{
+      margin-bottom: 4%;
+     }
+     .card-content p{
+      margin-top: 2%;
+      color: grey;
+      margin-bottom: 4%
+     }
   </style>
 </head>
 <body>
@@ -57,5 +105,49 @@
     <input type="text" placeholder="What's happening ?" class="tweet-input">
     <button class="tweet-button">Tweet</button>
   </div>
+  <h2>Exercise 2</h2>
+  <div class="outer-card">
+  <div class="card">
+    <img src="download.jpeg" alt="">
+    <div class="card-content">
+    <h2>MeaoMeao</h2>
+    <p>2 mutual friends</p>
+    <button>Add Friend</button>
+    </div>
+  </div>
+  </div>
+  <h2>Exercise 3</h2>
+  <div class="outer-card" style="display: inline-flex">
+  <div class="card">
+    <img src="download.jpeg" alt="">
+    <div class="card-content">
+    <h2>MeaoMeao</h2>
+    <p>2 mutual friends</p>
+    <button>Add Friend</button>
+    </div>
+  </div>
+  </div>
+  
+  <div class="outer-card" style="display: inline-flex">
+    <div class="card">
+      <img src="download (1).jpeg" alt="">
+      <div class="card-content">
+      <h2>BhawBhaw</h2>
+      <p>4 mutual friends</p>
+      <button>Add Friend</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="outer-card" style="display: inline-flex">
+      <div class="card">
+        <img src="download (2).jpeg" alt="">
+        <div class="card-content">
+        <h2>OynkOynk</h2>
+        <p>1 mutual friends</p>
+        <button>Add Friend</button>
+        </div>
+      </div>
+      </div>
 </body>
 </html>
