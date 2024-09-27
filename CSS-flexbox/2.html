@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS FLEXBOX</title>
+  <style>
+    .outerdiv{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+    }
+    .innerdiv{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .mid{
+      display: flex;
+      flex-direction: column;
+    }
+    p{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding-left: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: grey;
+    }
+    .pfp{
+      border-radius: 50%;
+      height: 4rem;
+      width: 4rem;
+      object-fit: cover;
+      object-position: center;
+    }
+    .mid{
+      flex: 1;
+    }
+    .follow{
+      font-weight: bold;
+      color: white;
+      background-color: rgb(136, 136, 243);
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .navbar{
+      display: flex;
+      background-color: blue;
+      height: 50px;
+      align-items: center;
+      justify-content: space-around;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .first{
+      width: 30%;
+      color: white;
+      font-weight: bold;
+      margin-left: 2%;
+    }
+    .search{
+      flex: 1;
+    }
+    .search-input{
+      width: 100%;
+      height: 30px;
+      border-radius: 20px;
+      padding-left: 10px;
+      border: none;
+    }
+    .last{
+      width: 30%;
+      display: flex;
+      justify-content: end;
+      margin-right: 2%;
+    }
+    .download{
+      color: white;
+      font-weight: bolder;
+      background-color: blue;
+      border: 2px solid;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Exercise 1</h2>
+  <div class="outerdiv">
+  <div class="innerdiv">
+    <div ><img src="../div/download.jpeg" class="pfp" alt=""></div>
+    <div class="mid">
+      <p style="font-weight: bold;color: black;">MeaoMeao</p>
+      <p>the Cat</p>
+      <p>popular</p>
+    </div>
+    <div ><button class="follow">Follow</button></div>
+  </div>
+  <div class="innerdiv">
+    <div ><img src="../div/download (1).jpeg" class="pfp" alt=""></div>
+    <div class="mid">
+      <p style="font-weight: bold;color: black;">BhawBhaw</p>
+      <p>the Dog</p>
+      <p>protector</p>
+    </div>
+    <div ><button class="follow">Follow</button></div>
+  </div>
+  <div class="innerdiv">
+    <div ><img src="../div/download (2).jpeg" class="pfp" alt=""></div>
+    <div class="mid">
+      <p style="font-weight: bold;color: black;">OynkOynk</p>
+      <p>the Pig</p>
+      <p>piggy</p>
+    </div>
+    <div ><button class="follow">Follow</button></div>
+  </div>
+  </div>  
+  <h2>Exercise 2</h2>
+  <div class="navbar">
+    <div class="first">Home</div>
+    <div class="search"><input type="text" placeholder="Search" class="search-input"></div>
+    <div class="last"><button class="download">Download</button></div>
+  </div>
+</body>
+</html>
