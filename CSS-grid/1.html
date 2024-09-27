@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-GRID</title>
+  <style>
+    .grid1{
+      display: grid;
+      font-weight: bolder;
+      grid-template-columns: 200px 75px;
+    }
+    .grid2{
+      display: grid;
+      font-weight: bolder;
+      grid-template-columns: 50px 1fr 75px;
+    }
+    .col1{
+      background-color: grey;
+    }
+    .col2{
+      background-color: cadetblue;
+    }
+    .grid3{
+      display: grid;
+      font-weight: bolder;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+    .grid4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    .card{
+      width: 90%;
+      border: none;
+      box-shadow: 0px 0px 5px black;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      overflow-wrap: break-word;
+     }
+     .outer-card{
+      width: 15rem;
+      border: solid;
+      border-color: grey;
+     }
+     .card img{
+      width: 100%;
+      height: 14rem;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+     .card button{
+      width: auto;
+      margin-top: 10%;
+      background-color: rgb(138, 138, 242);
+      color: aliceblue;
+      border: none;
+      width: auto;
+      margin-bottom: 10%;
+      height: 2rem;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem
+     }
+     .card-content{
+      padding-left: 5%;
+     }
+     .card-content h2{
+      margin-bottom: 4%;
+     }
+     .card-content p{
+      margin-top: 2%;
+      color: grey;
+      margin-bottom: 4%;
+      vertical-align: top;
+     }
+     .pfp img{
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+     }
+     .grid5{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+     }
+  </style>
+</head>
+<body>
+  <h2>Exercise 1</h2>
+  <div class="grid1">
+    <div class="col1">200px</div>
+    <div class="col2">75px</div>
+  </div>
+  <h2>Exercise 2</h2>
+  <div class="grid2">
+    <div class="col1">col1</div>
+    <div class="col2">col2</div>
+    <div class="col1">col3</div>
+  </div>
+  <h2>Exercise 3</h2>
+  <div class="grid3">
+    <div class="col1">col1</div>
+    <div class="col1">col2</div>
+    <div class="col1">col3</div>
+    <div class="col1">col4</div>
+    <div class="col1">col5</div>
+    <div class="col1">col6</div>
+    <div class="col1">col7</div>
+    <div class="col1">col8</div>
+  </div>
+  <h2>Exercise 4</h2>
+  <div class="grid4">
+    <div class="outer-card" style="display: inline-flex">
+      <div class="card">
+        <img src="../div/download.jpeg" alt="">
+        <div class="card-content">
+        <h2>MeaoMeao</h2>
+        <div class="grid5">
+          <div class="pfp"><img src="../div/download.jpeg" alt=""></div>
+        <p>2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+        </div>
+      </div>
+      </div>
+      
+      <div class="outer-card" style="display: inline-flex">
+        <div class="card">
+          <img src="../div/download (1).jpeg" alt="">
+          <div class="card-content">
+          <h2>BhawBhaw</h2>
+          <div class="grid5">
+            <div class="pfp"><img src="../div/download (1).jpeg" alt=""></div>
+          <p>4 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+          </div>
+        </div>
+        </div>
+    
+        <div class="outer-card" style="display: inline-flex">
+          <div class="card">
+            <img src="../div/download (2).jpeg" alt="">
+            <div class="card-content">
+            <h2>OynkOynk</h2>
+            <div class="grid5">
+              <div class="pfp"><img src="../div/download (2).jpeg" alt=""></div>
+              <p>1 mutual friends</p>
+            </div>
+            <button>Add Friend</button>
+            </div>
+          </div>
+          </div>
+  </div>
+</body>
+</html>
