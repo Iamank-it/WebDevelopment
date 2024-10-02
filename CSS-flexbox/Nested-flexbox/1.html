@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Flexbox</title>
+  <style>
+    .inner{
+      background-color: lightblue;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item{
+      background-color: black;
+      color: white;
+      font-size: 32px;
+      display: inline-flex;
+    }
+    .outer1{
+      display:flex;
+      height: 100px;
+      width: 50%;
+    }
+    .inner1{
+      background-color: lightblue;
+      width: 40%;
+    }
+    .inner2{
+      background-color: lightpink;
+      flex: 1;
+    }
+    .inner2-1{
+      font-weight: bolder;
+      font-size: 32px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+    .inner2-2{
+      display: flex;
+      justify-content: space-between;
+    }
+    .inner2-2-1{
+      display: flex;
+      flex: 1;
+      font-size: 32px;
+      color: white;
+      justify-content: space-between;
+    }
+    .inner2-2-1 div{
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <h2>Exercise 1</h2>
+<div class="outer1">
+    <div class="inner">
+      <div class="item">item1</div>
+    </div>
+    <div class="inner2">
+      </div>
+    </div>
+  </div>
+
+  <h2>Exercise 2</h2>
+  <div class="outer1">
+    <div class="inner1"></div>
+    <div class="inner2">
+      <div class="inner2-1">
+        row1
+      </div>
+      <div class="inner2-2">
+        <div class="inner2-2-1">
+          <div>row2
+            </div>
+            <div>row2
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
