@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twitter-tweet</title>
+  <style>
+    .tweet{
+      margin-top: 20px;
+      display: flex;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 480px;
+    }
+    .pfp img{
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+    .head{
+      font-weight: bolder;
+    }
+    .head span{
+      color: gray;
+      font-weight: normal
+    }
+    .head1{
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+    .link{
+      display: flex;
+      box-shadow: 0px 0px 5px lightblue;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .blank{
+      height: 100px;
+      width: 120px;
+      background-color: lightblue;
+    }
+    .ylink{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      margin-left: 10px;
+    }
+
+    .yt{
+      color: rgb(219, 170, 170);
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="tweet">
+    <div class="pfp">
+      <img src="../../div/download.jpeg" alt="">
+    </div>
+    <div class="content">
+      <div class="info">
+        <div class="head">Meao.Meao <span>@MeaoMeao</span></div>
+        <div class="head1">MeaoMeao first ever exciting vlog is up now! watch it on youtube</div>
+      </div>
+      <div class="link">
+        <div class="blank"></div>
+        <div class="ylink">
+          <div class="yt">youtube.com</div>
+          <div>MeaoMeao First Vlog trip (2024) Like Share and Subscribe</div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
