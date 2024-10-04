@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overlay</title>
+  <style>
+    body{
+      height: 3000px;
+    }
+    .bottom{
+      position: fixed;
+      background-color: black;
+      color: white;
+      bottom: 20px;
+      right: 20px;
+    }
+    .sidebar{
+      position: fixed;
+      background-color: green;
+      color: white;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+    }
+    .over{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">right sidebar</div>
+  <div class="bottom">bottom-right</div>
+  <div class="over"></div>
+</body>
+</html>
