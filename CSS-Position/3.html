@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2</title>
+<style>
+  body{
+    height: 3000px;
+  }
+  .outer{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0px 0px 5px black;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  .name{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+  .pfp img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+  .user{
+    padding-left: 15px;
+  }
+  .buttons{
+    margin-right: 5%;
+  }
+  .add{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(109, 109, 247);
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .msg{
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+  }
+  .Discord{
+    width: 80%;
+    height: 400px;
+    box-shadow: 0px 0px 5px black;
+    position: fixed;
+    display: flex;
+    
+}
+.left{
+  position: absolute;
+  background-color: rgb(45, 40, 40);
+  top: 0;
+  bottom: 0;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: center;
+}
+.left img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: 15px;
+    object-position: center;
+    border-radius: 50%;
+  }
+  .middle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-left: 90px;
+    padding-top: 20px;
+    background-color: rgb(65, 64, 64);
+    width: 230px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .right{
+    flex:1;
+  }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+  <h2>
+    Exercise 1 : facebook friend request
+  </h2>
+  <div class="outer">
+    <div class="name">
+      <div class="pfp"><img src="../div/download.jpeg" alt=""></div>
+      <div class="user"><h3>MeaoMeao</h3></div>
+    </div>
+    <div class="buttons">
+      <button class="add">Add Friend</button>
+      <button class="msg">Message</button>
+    </div>
+  </div>
+  <h2 style="margin-top: 110px;">
+    Exercise 2 : Discord sidebar 
+  </h2>
+  <div class="Discord">
+    <div class="left">
+      <img src="../div/download.jpeg" alt="">
+      <img src="../div/download (1).jpeg" alt="">
+      <img src="../div/download (2).jpeg" alt="">
+    </div>
+    <div class="middle">
+      <div class="info">
+        <h3>INFO</h3>
+        <h3 style="color: gray;">+</h3>
+      </div>
+      <div><h3 style="color: gray; font-weight: normal;">#new video</h3></div>
+      <div><h3 style="color: gray; font-weight: normal;">#updates</h3></div>
+      <div><h3 style="color: gray; font-weight: normal;">#faq</h3></div>
+    </div>
+    <div class="right"></div>
+  </div>
+</body>
+</html>
